@@ -72,7 +72,8 @@ def ProcessData(sample_data):
             temp_dev.append(dev)
             temp_state.append(x)
             
-            i = i + 80
+            i = i + 50
+            #i = i + 80
             
         TEMP_mean.append(temp_mean)
         TEMP_min.append(temp_min)
